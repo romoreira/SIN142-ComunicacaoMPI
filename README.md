@@ -1,6 +1,7 @@
 # SIN142 Comunicação de Processos - Massaging Passing Interface (MPI)
 
-## Nesta aula prática, vamos utilizar duas máquinas UBUNTU.
+### Objetivos
+Nesta aula prática de MPI (Message Passing Interface), os alunos aprenderão os fundamentos da programação paralela e distribuída, incluindo comunicação entre processos, divisão de tarefas e otimização de desempenho em sistemas distribuídos. O objetivo é capacitá-los a desenvolver e otimizar programas paralelos utilizando o MPI para melhorar a eficiência e escalabilidade de suas aplicações distribuídas.
 
 ## Antes de Começar:
 
