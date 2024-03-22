@@ -44,4 +44,4 @@
 ## Proposição de Estudo/Desafio Extra
 
 1. Proponha que os processos distribuídos façam operações matemáticas e devolvam o resultado.
-2. Proponha um algoritmo de ordenação distribuído (Mergesort). Valide se o programa no [arquivo]() funciona para esse propósito.
+2. Proponha um algoritmo de ordenação distribuído (Mergesort). Valide se o programa no [arquivo](https://github.com/romoreira/SIN142-ComunicacaoMPI/blob/6e648670a7f800655e89e3a017ab8e45a7dbf323/merge_distribuido_exemplo.c) funciona para esse propósito.
