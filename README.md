@@ -40,3 +40,8 @@
 
 * Para executar utilize: `mpirun -n 2 -f host_file ./mpi_hello_world`
 * Você deverá observar a saída, onde cada host (distribuído) executou sua instância e devolveu o resultado.
+
+## Proposição de Estudo/Desafio Extra
+
+1. Proponha que os processos distribuídos façam operações matemáticas e devolvam o resultado.
+2. Proponha um algoritmo de ordenação distribuído (Mergesort). Valide se o programa no [arquivo]() funciona para esse propósito.
