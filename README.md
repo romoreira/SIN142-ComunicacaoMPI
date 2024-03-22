@@ -7,7 +7,7 @@ Nesta aula prática de MPI (Message Passing Interface), os alunos aprenderão os
 ## Antes de Começar:
 
 * Saber o endereço IP das máquinas envolvidas na programação distribuída.
-    - IPs: [List]
+    - IPs: [192.168.1.1](#), [192.168.1.2](#), [192.168.1.3](#)
 * Configurar o SSH Pass
 
 ## Configuração do Ambiente
