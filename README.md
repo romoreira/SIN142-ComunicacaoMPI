@@ -6,7 +6,7 @@ Nesta aula prática de MPI (Message Passing Interface), os alunos aprenderão os
 
 ## Antes de Começar:
 
-* Saber o endereço IP das duas máquinas.
+* Saber o endereço IP das máquinas envolvidas na programação distribuída.
     - IPS: [List]
 * Configurar o SSH Pass
 
