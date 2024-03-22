@@ -5,7 +5,7 @@
 
 Nesta aula prática de MPI (Message Passing Interface), os alunos aprenderão os fundamentos da programação paralela e distribuída, incluindo comunicação entre processos, divisão de tarefas e otimização de desempenho em sistemas distribuídos. O objetivo é capacitá-los a desenvolver e otimizar programas paralelos utilizando o MPI para melhorar a eficiência e escalabilidade de suas aplicações distribuídas.
 
-## Antes de Começar:
+## Antes de Começar: :earth_americas:
 
 * Saber o endereço IP das máquinas envolvidas na programação distribuída.
     - IPs: [192.168.1.1](#), [192.168.1.2](#), [192.168.1.3](#)
