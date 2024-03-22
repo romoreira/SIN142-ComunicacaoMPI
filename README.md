@@ -12,6 +12,7 @@
 
 * `sudo apt-get update` 
 * `sudo apt-get install gcc make mpich`
+* Configurando o arquivo `/etc/hosts` ele deve estar configurado (nas duas máquinas) com o mapeamento estático do IP <-> Host como no [arquivo](https://github.com/romoreira/SIN142-ComunicacaoMPI/blob/3a174287412ab2dd2a273971efc3d9306fe7cd57/hosts).
 
 ## Configuração do SSH Pass:
 
@@ -26,12 +27,16 @@
 
   >  `Neste ponto as conexões SSHs entre os hosts deverão estar funcionando sem prompt de senha.`
 
-## Passos - Configurando o Programa Distribuído com MPI
+## Configuração do Programa Distribuído com MPI
 
 * `git clone https://github.com/romoreira/SIN142-ComunicacaoMPI.git`
 * `cd SIN142-ComunicacaoMPI`
 * `which mpicc`
 * `export MPICC=/usr/bin/mpicc`
 * `export MPI_HOSTS=host_file` Deverão estar listados todos os hosts do cluster como neste [arquivo](https://github.com/romoreira/SIN142-ComunicacaoMPI/blob/309c9dcbaca34aa8ae3fe6cbdfbb312d47d82227/host_file).
+* `mpicc -o mpi_hello_world mpi_hello_world.c` Neste ponto o arquivo executável do mpi_hello_world deverá estar disponível no diretório e pronto para execução.
 
-* `mpicc -o mpi_hello_world mpi_hello_world.c`
+## Execução e Testes
+
+* Para executar utilize: `mpirun -n 2 -f host_file ./mpi_hello_world`
+* Você deverá observar a saída, onde cada host (distribuído) executou sua instância e devolveu o resultado.
