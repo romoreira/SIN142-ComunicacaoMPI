@@ -18,7 +18,6 @@ Nesta aula prática de MPI (Message Passing Interface), os alunos aprenderão os
 
 ## Configuração do SSH Pass:
 
-* `ssh-keygen -t rsa -b 4096 -C "seu_email@example.com" -f ~/.ssh/<nome_chave>`
 * `ssh-keygen -t rsa -b 4096 -C "email@example.com" -f ~/.ssh/id_rsa`
 * `ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@<IP_REMOTO>`
 * `ssh ubuntu@<IP_REMOTO>`
