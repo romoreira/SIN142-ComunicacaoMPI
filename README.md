@@ -23,7 +23,7 @@ Nesta aula prática de MPI (Message Passing Interface), os alunos aprenderão os
 * `ssh-copy-id -i ~/.ssh/id_rsa.pub ubuntu@<IP_REMOTO>`
 * `ssh ubuntu@<IP_REMOTO>`
 * `sudo vim /etc/hosts` Adicionar aqui os hosts que estarão envolvidos no processamento distribuído.
-* `ssh ubuntu@<IP_REMOTO>`
+* `ssh ubuntu@<IP_REMOTO>` Logar também com o nome do host!
 * `ping <IP_REMOTO>`
 * `ssh ubuntu@HOSTNAME`
 
