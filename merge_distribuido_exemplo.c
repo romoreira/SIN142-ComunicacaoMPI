@@ -43,6 +43,7 @@ int main(int argc, char** argv) {
     MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
     MPI_Comm_size(MPI_COMM_WORLD, &world_size);
 
+    // Ajuste aqui (Ex: 100 milhões por processo)
     int n_per_process = 100000000; 
     int total_n = n_per_process * world_size;
     
@@ -70,6 +71,7 @@ int main(int argc, char** argv) {
                n_per_process, MPI_INT, 0, MPI_COMM_WORLD);
 
     if (world_rank == 0) {
+        // --- A MÁGICA DA OTIMIZAÇÃO ---
         // Em vez de mergeSort total, fazemos apenas o merge das partes já ordenadas
         // Se world_size for 2, fazemos 1 merge. 
         // Se for mais, precisaríamos de um loop de merges, mas para 2 processos:
